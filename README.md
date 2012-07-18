@@ -2,7 +2,9 @@
 
 ## Instructions
  - Depending on which user is running php or where the directory is, you may need to run the command under sudo as no checks are done on folder permissions.
- - Please run the following command php clean.php [inputfile] [outputmethod]  (e.g. php clean.php data/points.csv save or php clean.php data/points.csv print).
+ - Please run the following command php clean.php [inputfile] [outputmethod]. For example 
+     'php clean.php data/points.csv save' 
+     'php clean.php data/points.csv print'
  - If you want to change the top speed you can do on line 2. I have set it to 50mph as that feels like a speed at which a taxi will not go above in central London. If need's be this could obviously be set as a argument on the CLI.
 
 ## Explanation
